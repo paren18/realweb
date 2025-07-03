@@ -1,0 +1,3 @@
+<LocationMatch "/\.(?!well-known)">
+    Require             all denied
+</LocationMatch>

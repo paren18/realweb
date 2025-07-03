@@ -1,0 +1,44 @@
+.news-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.news-card {
+	width: calc(50% - 15px);
+	border: 1px solid #ddd;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+.news-image img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+	object-fit: cover;
+}
+
+.news-date {
+	font-size: 14px;
+	color: #888;
+	margin-bottom: 5px;
+}
+
+.news-title {
+	font-size: 18px;
+	margin: 5px 0;
+}
+
+.news-preview {
+	font-size: 15px;
+	line-height: 1.4;
+	color: #333;
+}
+
+.news-pagination {
+	margin-top: 40px;
+	text-align: center;
+}
