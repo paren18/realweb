@@ -19,13 +19,13 @@ $request = Context::getCurrent()->getRequest();
 $page = max((int)$request->get('page'), 1);
 $limit = (int)$request->get('limit');
 if ($limit <= 0) {
-    $limit = 10;
+    $limit = 5;
 }
 $offset = ($page - 1) * $limit;
 
 // Фильтр
 $filter = [
-    'IBLOCK_ID' => 5, // Укажи правильный ID инфоблока новостей
+    'IBLOCK_ID' => 5,
     'ACTIVE' => 'Y'
 ];
 
